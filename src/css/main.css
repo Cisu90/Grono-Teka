@@ -1,0 +1,65 @@
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-user-select: none;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-size: 1.6rem;
+}
+nav {
+	position: fixed;
+	height: 100%;
+	display: block;
+	width: 100px;
+	background: rgba(0, 0, 0, 1);
+	z-index: 9;
+	padding: 0 0 0 0;
+}
+main {
+	position: fixed;
+	height: 100%;
+	display: block;
+	width: 100%;
+	background: rgba(150, 150, 150, 1);
+	z-index: 8;
+	text-align: center;
+	padding: 0 0 0 70px;
+}
+#nav_menu {
+	vertical-align: middle;
+	text-align: center;
+	width: 100%;
+}
+.klawisz {
+	font-size: 30px;
+	color: rgba(255, 255, 255, 1);
+}
+/* fullpage */
+#serwisCisowscy {
+	width: 100%;
+	height: 100%;
+	padding: 0 0 0 50px;
+}
+.section {
+	text-align: center;
+	font-family: 'Berkshire Swash', cursive;
+}
+#callbacks-placeholder {
+	position: fixed;
+	top: 50px;
+	left: 50px;
+	color: black;
+	z-index: 999;
+}
+.slajd_tlo {
+	position: absolute;
+	width: 100%;
+	top: 0;
+	left: 0%;
+	height: 100%;
+}
